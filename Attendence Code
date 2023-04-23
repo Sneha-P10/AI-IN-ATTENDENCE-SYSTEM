@@ -6,7 +6,7 @@ from datetime import datetime
 
 # from PIL import ImageGrab
 nameList = []
-path = "photos"
+path = "//photos"
 images = []
 classNames = []
 myList = os.listdir(path)
@@ -32,7 +32,7 @@ def findEncodings(images):
 def markAttendance(name):
     global nameList
 
-    with open("C:\\Users\\sneha\\OneDrive\\Desktop\\attendence_pic\\attendence.txt", 'a+') as f:
+    with open("\\attendence.txt", 'a+') as f:
         #myDataList = f.readlines()
 
         if name not in nameList:
